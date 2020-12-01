@@ -27,7 +27,7 @@ services:
     volumes:
       - /dev/bus/usb:/dev/bus/usb
   rethinkdb:
-          image: gounthar/docker-rethinkdb:aarch64
+    image: gounthar/docker-rethinkdb:aarch64
     restart: unless-stopped
     volumes:
       - rethinkdb:/data
